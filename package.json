@@ -16,9 +16,6 @@
     "url": "https://github.com/eyeem/eslint-config-eyeem/issues"
   },
   "homepage": "https://github.com/eyeem/eslint-config-eyeem#readme",
-  "peerDependencies": {
-    "babel-eslint": "^8.2.6"
-  },
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
