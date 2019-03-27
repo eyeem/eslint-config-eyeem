@@ -1,6 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
-  plugins: ['flowtype', 'react', 'prettier', 'jest', 'security'],
+  plugins: ['flowtype', 'react', 'prettier', 'jest', 'security', 'react-hooks'],
   extends: [
     'airbnb',
     'plugin:flowtype/recommended',
@@ -67,7 +67,10 @@ module.exports = {
     'import/no-useless-path-segments': 0,
     'import/no-cycle': 0,
 
-    'jsx-a11y/click-events-have-key-events': 0
+    'jsx-a11y/click-events-have-key-events': 0,
+
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   },
   globals: {
     casper: true,
