@@ -6,6 +6,7 @@ module.exports = {
     "prettier",
     "jest",
     "jsx-a11y",
+    "import",
     "security",
     "react-hooks",
     "eyeem-refactor"
