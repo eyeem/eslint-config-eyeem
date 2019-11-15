@@ -10,6 +10,7 @@ module.exports = {
     "eyeem-refactor"
   ],
   extends: [
+    "eslint:recommended",
     "plugin:flowtype/recommended",
     "plugin:react/recommended",
     "plugin:security/recommended",
