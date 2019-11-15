@@ -5,6 +5,7 @@ module.exports = {
     "react",
     "prettier",
     "jest",
+    "jsx-a11y",
     "security",
     "react-hooks",
     "eyeem-refactor"
@@ -15,6 +16,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:security/recommended",
     "plugin:jest/recommended",
+    "plugin:jsx-a11y/recommended",
     "prettier",
     "prettier/flowtype",
     "prettier/react"
