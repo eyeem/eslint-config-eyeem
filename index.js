@@ -24,9 +24,7 @@ module.exports = {
     "plugin:security/recommended",
     "plugin:jest/recommended",
     "plugin:jsx-a11y/recommended",
-    "prettier",
-    "prettier/flowtype",
-    "prettier/react"
+    "prettier"
   ],
   rules: {
     "prettier/prettier": [
