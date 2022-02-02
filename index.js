@@ -7,7 +7,6 @@ module.exports = {
     ecmaVersion: 6
   },
   plugins: [
-    "eyeem-refactor"
     "flowtype",
     "import",
     "jest",
@@ -74,8 +73,8 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
 
     // Our own refactoring rules
-    "eyeem-refactor/no-deprecated-imports": 2,
-    "eyeem-refactor/no-classnames-module": 2
+    "no-deprecated-imports": 2,
+    "no-classnames-module": 2
   },
   globals: {
     casper: true,
