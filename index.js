@@ -73,8 +73,8 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
 
     // Our own refactoring rules
-    "no-deprecated-imports": 2,
-    "no-classnames-module": 2
+    "eyeem-refactor/no-deprecated-imports": 2,
+    "eyeem-refactor/no-classnames-module": 2
   },
   globals: {
     casper: true,
