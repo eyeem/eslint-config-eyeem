@@ -1,5 +1,5 @@
 module.exports = {
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
   env: {
     es6: true
   },
@@ -8,22 +8,21 @@ module.exports = {
   },
   plugins: [
     "flowtype",
-    "react",
-    "prettier",
+    "import",
     "jest",
     "jsx-a11y",
-    "import",
-    "security",
+    "prettier",
+    "react",
     "react-hooks",
-    "eyeem-refactor"
+    "security",
   ],
   extends: [
     "eslint:recommended",
     "plugin:flowtype/recommended",
-    "plugin:react/recommended",
-    "plugin:security/recommended",
     "plugin:jest/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "plugin:security/recommended",
     "prettier"
   ],
   rules: {
@@ -46,7 +45,7 @@ module.exports = {
     "jsx-a11y/img-redundant-alt": 0,
     "jsx-a11y/no-static-element-interactions": 0,
 
-    "import/extensions": [1, { js: "never", jsx: "always" }],
+    "import/extensions": [1, { js: "never", jsx: "never" }],
 
     // warning only until we have a proper solution for client side logging
     "no-console": 1,

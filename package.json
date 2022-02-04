@@ -1,8 +1,11 @@
 {
   "name": "eslint-config-eyeem",
-  "version": "1.2.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "Shared linting rules for EyeEm frontend clients",
   "main": "index.js",
+  "engines": {
+    "node": "^12.22.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,27 +13,27 @@
     "type": "git",
     "url": "git+https://github.com/eyeem/eslint-config-eyeem.git"
   },
-  "author": "Eric Schaefer",
+  "author": "EyeEm Engineering",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/eyeem/eslint-config-eyeem/issues"
   },
   "homepage": "https://github.com/eyeem/eslint-config-eyeem#readme",
   "peerDependencies": {
-    "eslint": ">5.6.0"
+    "eslint": "^7.32.0"
   },
   "dependencies": {
-    "babel-eslint": "^10.1.0",
+    "@babel/eslint-parser": "^7.16.5",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-eyeem-refactor": "github:eyeem/eslint-plugin-eyeem-refactor#19b9fa75242a21fd755874bac74be6891cd1f580",
-    "eslint-plugin-flowtype": "^5.8.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^24.3.6",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-eyeem-refactor": "github:eyeem/eslint-plugin-eyeem-refactor#9fe95d38605206f3fbad11484e2ee62566d5237b",
+    "eslint-plugin-flowtype": "^7.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.0.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-security": "^1.4.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.5.1"
   }
 }
