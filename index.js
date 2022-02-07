@@ -7,6 +7,7 @@ module.exports = {
     ecmaVersion: 6
   },
   plugins: [
+    "eyeem-refactor",
     "flowtype",
     "import",
     "jest",
