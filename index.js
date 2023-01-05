@@ -75,7 +75,9 @@ module.exports = {
 
     // Our own refactoring rules
     "eyeem-refactor/no-deprecated-imports": 2,
-    "eyeem-refactor/no-classnames-module": 2
+    "eyeem-refactor/no-classnames-module": 2,
+
+    "prefer-const": "warn",
   },
   globals: {
     casper: true,
